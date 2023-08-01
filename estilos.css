@@ -1,0 +1,73 @@
+/* Importar la fuente personalizada Raleway */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* Importar la fuente personalizada Tektur */
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap");
+
+/* Importar variables.css */
+@import url("variables.css");
+
+/* Estilos generales para todo el sitio */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el encabezado */
+.header {
+  background-color: var(--marron-fuerte);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+/* Estilos para el logo en el encabezado */
+.header__logo {
+  width: 4rem;
+}
+
+/* Estilos para el contenido principal */
+.main {
+  padding: 2rem;
+}
+
+/* Estilos para las sections individuales */
+.main_pizza,
+.main__hamburguesa,
+.main__panchos,
+.main__sopa,
+.main__platoPrincipal {
+  margin-bottom: 3rem;
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none;
+  color: var(--azul-suave);
+  transition: color 0.3s;
+}
+
+
+a:visited {
+  color: #e69138;
+}
+a:hover,
+a:focus {
+  color: #d3c227;
+}
+
+/* Estilos para resaltar palabras */
+.resaltado {
+  color: #d3c227;
+  font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  background-color: var(--marron-fuerte);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Agrega aquí otros estilos para el pie de página */

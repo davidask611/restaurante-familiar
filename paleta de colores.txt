@@ -1,0 +1,5 @@
+.marron-suave { #622824 };
+.marron-fuerte { #2f0618 };
+.violeta-azulado { #412a9c };
+.azul-suave { #1b66ff };
+.celeste { #00cef5 };
