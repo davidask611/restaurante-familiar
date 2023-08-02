@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Sitio Web</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap"
-    />
     <link rel="stylesheet" href="estilos.css" />
   </head>
   <body>
@@ -30,7 +26,26 @@
       <!-- Primer section con la clase "main_pizza" -->
       <section class="main_pizza">
         <h2 class="main__title">Pizzas de la Casa</h2>
-        <img src="ruta_de_la_imagen_pizza.jpg" alt="Pizzas de la Casa" />
+        <div class="main__img">
+          <img src="img/pizza/dibujo.png" alt="Pizzas de la Casa" />
+        </div>
+
+        <section class="container">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="slider-1" src="img/pizza/pizza (5).png" alt="" />
+              <img id="slider-2" src="img/pizza/pizza (3).png" alt="" />
+              <img id="slider-3" src="img/pizza/pizza (1).png" alt="" />
+              <img id="slider-4" src="img/pizza/pizza (7).png" alt="" />
+            </div>
+            <div class="slider-nav">
+              <a href="#slider-1"></a>
+              <a href="#slider-2"></a>
+              <a href="#slider-3"></a>
+              <a href="#slider-4"></a>
+            </div>
+          </div>
+        </section>
         <p class="main__content">Lorem ipsum dolor sit amet consectetur.</p>
       </section>
 
